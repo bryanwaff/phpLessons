@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5bc960b-ab44-46a8-91f8-8d69b215cc02" name="Changes" comment="php class" />
+    <list default="true" id="c5bc960b-ab44-46a8-91f8-8d69b215cc02" name="Changes" comment="php class">
+      <changelist_data name="bryanwaff" email="bryanwaff5@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/register_handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_interest_calculator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_interest_handler.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +20,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="2080XLqQDhG5CNithMnPjlbcfCA" />
@@ -25,6 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../php/php.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -38,6 +55,9 @@
       <workItem from="1635410960180" duration="292000" />
       <workItem from="1635412866566" duration="744000" />
       <workItem from="1635413637429" duration="2251000" />
+      <workItem from="1636361587500" duration="65000" />
+      <workItem from="1636361665148" duration="3762000" />
+      <workItem from="1636441411244" duration="6315000" />
     </task>
     <task id="LOCAL-00001" summary="php class">
       <created>1635414155962</created>
@@ -62,6 +82,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="php class" />
