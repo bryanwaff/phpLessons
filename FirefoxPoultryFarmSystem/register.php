@@ -40,6 +40,22 @@
         </form>
     </div>
 
+    <?php
+    if(isset($_GET['m'])){ ?>
+        <div class="flash-data" data-flashdata="<?php echo $_GET['m'];?>"></div>
+    <?php } ?>
+
+    <script>
+        const flashdata = $('.flash-data').data('flashdata')
+        if(flashdata){
+            swal.fire({
+                type : 'warning',
+                title : 'Error!',
+                text : 'Email already taken!'
+            })
+        }
+    </script>
+
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

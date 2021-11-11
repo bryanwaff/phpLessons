@@ -29,15 +29,16 @@
      $return = mysqli_num_rows($result);
 
      if ($return == 1){
-         echo "Email already taken!";
+         //echo "Email already taken!";
          //header('location:users.php');
+         header('location:register.php?m=1');
      }
      //check if saved
      else {
          //save to DB
          $save = mysqli_query($connection, $insertQuery);
          //echo "Registration successfully!";
-         echo "swal({  title: "Good job!", text: "You clicked the button!",  icon: "success",})";
+         //echo "swal({  title: "Good job!", text: "You clicked the button!",  icon: "success",})";
          //header('location:login.php');
      }
  }

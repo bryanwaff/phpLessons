@@ -27,9 +27,9 @@
                 Go for POST -->
         <form method="post" action="update_handler.php">
           <div class="mb-3">
-              <input type="hidden" value="<?php echo $rID;?>">
               <label class="form-label">Update Username</label>
               <input value="<?php echo $rName?>" name="username" type="text" class="form-control" placeholder="Username" aria-describedby="emailHelp">
+              <input type="hidden" value="<?php echo $rID;?>" name="userId">
           </div>
           <div class="mb-3">
               <label class="form-label">Update Email</label>
@@ -47,6 +47,8 @@
             <button name="btn_update" type="submit" class="btn btn-primary">Update</button>
         </form>
     </div>
+
+
 
 
 

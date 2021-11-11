@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5bc960b-ab44-46a8-91f8-8d69b215cc02" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/login_handler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/delete_handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/delete_handler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/register_handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/register_handler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/update_handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/update_handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/FirefoxPoultryFarmSystem/users.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,7 @@
       <workItem from="1636477911114" duration="2033000" />
       <workItem from="1636554103270" duration="2301000" />
       <workItem from="1636560022788" duration="940000" />
-      <workItem from="1636564319708" duration="15110000" />
+      <workItem from="1636564319708" duration="18822000" />
     </task>
     <task id="LOCAL-00001" summary="php class">
       <created>1635414155962</created>
