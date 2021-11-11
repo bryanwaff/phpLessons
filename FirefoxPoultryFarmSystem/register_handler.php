@@ -7,18 +7,37 @@
      //connect to DB
      require_once "connection.php";
 
+     //notify
+     $notify = "Swal.fire({
+          title: 'Error!',
+          text: 'Do you want to continue',
+          icon: 'error',
+          confirmButtonText: 'Cool'
+        })";
+
+
      //insert users to DB
      $insertQuery = "INSERT INTO `users`(`id`, `jina`, `arafa`, `siri`) VALUES (null,'$userName','$userMail','$userPassword')";
 
-     //save to DB
-     $save = mysqli_query($connection, $insertQuery);
 
-     //check if saved
-     if (isset($save)){
-         echo "Registration successfully!";
+
+     //validate to register
+     $validate = "select * from users where arafa = '$userMail'";
+
+     $result = mysqli_query($connection, $validate);
+
+     $return = mysqli_num_rows($result);
+
+     if ($return == 1){
+         echo "Email already taken!";
+         //header('location:users.php');
      }
-     else
-     {
-         echo "Registration Failed!";
+     //check if saved
+     else {
+         //save to DB
+         $save = mysqli_query($connection, $insertQuery);
+         //echo "Registration successfully!";
+         echo "swal({  title: "Good job!", text: "You clicked the button!",  icon: "success",})";
+         //header('location:login.php');
      }
  }

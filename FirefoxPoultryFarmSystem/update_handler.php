@@ -1,6 +1,6 @@
 <?php
-if (isset($_POST["update"])){
-    $userID = $_POST["id"];
+
+if (isset($_POST["btn_update"])){
     $updatedName = $_POST["username"];
     $updatedEmail = $_POST["email"];
     $updatedPassword = $_POST["password"];
@@ -10,7 +10,7 @@ if (isset($_POST["update"])){
 
     //prapare the update query
 
-    $updateQuery = "UPDATE `users` SET `jina`='$updatedName',`arafa`='$updatedEmail',`siri`='$updatedPassword' WHERE id='$userID'";
+    $updateQuery = "UPDATE `users` SET `jina`='$updatedName',`arafa`='$updatedEmail',`siri`='$updatedPassword' WHERE `id`='$rID'";
 
     //execution
     $update = mysqli_query($connection, $updateQuery);

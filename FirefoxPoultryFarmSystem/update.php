@@ -1,10 +1,10 @@
 <?php
-    if (isset($_GET["userID"])){
-        $receivedName = $_GET["user_name"];
-        $receivedEmail = $_GET["user_email"];
-        $receivedPassword = $_GET["user_password"];
-        $receivedID = $_GET["user_ID"];
-    }
+    if (isset($_GET["user_id"])) {
+        $rID = $_GET["user_id"];
+        $rName = $_GET["user_name"];
+        $rEmail = $_GET["user_email"];
+        $rPassword = $_GET["user_password"];
+
 ?>
 
 <!doctype html>
@@ -27,22 +27,28 @@
                 Go for POST -->
         <form method="post" action="update_handler.php">
           <div class="mb-3">
+              <input type="hidden" value="<?php echo $rID;?>">
               <label class="form-label">Update Username</label>
-              <input value="<?php echo $receivedID;?>" name="id" type="hidden" class="form-control">
-              <input value="<?php echo $receivedName;?>" name="username" type="text" class="form-control" placeholder="Username" aria-describedby="emailHelp">
+              <input value="<?php echo $rName?>" name="username" type="text" class="form-control" placeholder="Username" aria-describedby="emailHelp">
           </div>
           <div class="mb-3">
               <label class="form-label">Update Email</label>
-              <input value="<?php echo $receivedEmail;?>" name="email" type="email" class="form-control" placeholder="Email">
+              <input value="<?php echo $rEmail?>" name="email" type="email" class="form-control" placeholder="Email">
           </div>
           <div class="mb-3">
               <label class="form-label">Update Password</label>
-              <input value="<?php echo $receivedPassword;?>" name="password" type="text" class="form-control" placeholder="Password">
+              <input value="<?php echo $rPassword;?>" name="password" type="text" class="form-control" placeholder="Password">
           </div>
-          <button name="update" type="submit" class="btn btn-primary">Update</button>
-          <button name="skip" class="btn btn-danger">Skip</button>
+            <?php
+            }
+            ?>
+
+            <a href="users.php" class="btn btn-success">Back</a>
+            <button name="btn_update" type="submit" class="btn btn-primary">Update</button>
         </form>
     </div>
+
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
